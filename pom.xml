@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>in.ashokit</groupId>
-  <artifactId>01-maven-web-app</artifactId>
+  <groupId>in.akash</groupId>
+  <artifactId>java-webapp</artifactId>
   <packaging>war</packaging>
   <version>3.0-SNAPSHOT</version>
-  <name>01-maven-web-app</name>
+  <name>java-webapp</name>
   <url>http://maven.apache.org</url>
  
   <dependencies>
@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>01-maven-web-app</finalName>
+    <finalName>java-webapp</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
