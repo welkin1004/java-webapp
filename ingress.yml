@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: jav-ingerss
+  namespace: java
+spec:
+  rules:
+    - http:
+        paths:
+          - backend:
+              serviceName: javawebapp
+              servicePort: 80
+            path: /*
+
